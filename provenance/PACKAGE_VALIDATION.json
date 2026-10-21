@@ -1,0 +1,82 @@
+{
+  "status": "PASS_LOCAL_REPOSITORY_REPRODUCTION_NOT_PUBLISHED",
+  "date_local": "2026-10-21",
+  "checks": [
+    {
+      "status": "PASS_SHA256_AND_SYNTAX",
+      "files": 2260
+    },
+    {
+      "status": "PASS_TABLES_REPRODUCED_WITHOUT_MODEL_FITTING_OR_TEX",
+      "tables": 15,
+      "EEG_cells_recomputed": 480
+    },
+    {
+      "status": "PASS_ADDITIONAL_RECORDED_SUMMARIES",
+      "additional_tables": 5,
+      "pooled_cohorts": 40,
+      "new_fits": false,
+      "new_tests": false
+    },
+    {
+      "status": "PASS_RECORDED_PREDICTION_SCORES",
+      "checks_by_scope": {
+        "E48_full_revision_v1": 14168,
+        "E48_full_revision_v1:wrong_EEG": 14168,
+        "E50_corrected_dynamics_v1": 2736,
+        "E50_corrected_dynamics_v1:wrong_EEG": 2736,
+        "E51_global_geometry_v1": 1824,
+        "E51_global_geometry_v1:wrong_EEG": 1824,
+        "E58:private": 3360,
+        "E58:absolute": 3360,
+        "E59": 104,
+        "E49:valid_mean": 48
+      },
+      "maximum_absolute_error": 1.6416219956738587e-06,
+      "valid_EEG_cells": 480,
+      "note": "Arithmetic checks include historical prototype rows for integrity; use the corrected audited summaries for inference.",
+      "new_fits": false,
+      "new_tests": false
+    },
+    {
+      "status": "PASS_REFIT_PLAN_DRY_RUN",
+      "analysis": "local-rt",
+      "output": "C:\\Users\\Kutay\\Desktop\\Gama\\EEG_MAKALE\\github_20261021\\eeg-state-transfer-benchmark\\scratch_refits\\dry_run_local",
+      "creates_output": false,
+      "fits": false
+    },
+    {
+      "status": "PASS_REFIT_PLAN_DRY_RUN",
+      "analysis": "energy",
+      "output": "C:\\Users\\Kutay\\Desktop\\Gama\\EEG_MAKALE\\github_20261021\\eeg-state-transfer-benchmark\\scratch_refits\\dry_run_energy",
+      "creates_output": false,
+      "fits": false
+    }
+  ],
+  "original_plan_code_matches": {
+    "E47_JNM_PROTOCOL_20261019.json": "jnm_diagnostic_20261019.py",
+    "E48_PROTOCOL_20261019.json": "e48_revision_core.py",
+    "E49_HISTORY_CORRECTION_20261019.json": "e49_history_correction_failed_segment_v1.py",
+    "E49_HISTORY_CORRECTION_V2_20261019.json": "e49_correct_history_selection.py",
+    "E49_PROTOCOL_20261019.json": "e49_real_eeg_transfer.py",
+    "E50_PROTOCOL_20261019.json": "e50_corrected_input_dynamics.py",
+    "E51_PROTOCOL_POSTHOC_20261019.json": "e51_global_geometry_full_pca.py",
+    "E52_REVIEW_DIAGNOSTICS_POSTHOC_20261019.json": "e52_review_mechanism_diagnostics.py",
+    "E53_POSTHOC_SOURCE_NULL_PLAN_20261019.json": "e53_source_null_failed_pairing_v1.py",
+    "E53_POSTHOC_SOURCE_NULL_PLAN_V2_20261019.json": "e53_open_eeg_source_null_diagnostic.py",
+    "E54_POSTHOC_REVIEW_PLAN_20261020.json": "e54_review_validation_20261020.py",
+    "E55_POSTHOC_CALIBRATION_PLAN_20261020.json": "e55_calibration_absolute_20261020.py",
+    "E56_POSTHOC_MAP_PLAN_20261020.json": "e56_map_ablation_20261020.py",
+    "E57_POSTHOC_REPEATABILITY_PLAN_20261020.json": "e57_noise_repeatability_20261020.py",
+    "E58_PLAN_20261020.json": "e58_energy_matched_anisotropy_20261020.py",
+    "E59_PLAN_20261020.json": "e59_time_blocked_local_rt_20261020.py"
+  },
+  "secret_pattern_hits": [],
+  "source_record_hashes_unchanged": true,
+  "manuscript_hashes_unchanged": true,
+  "original_code_license_assigned": false,
+  "public_repository_created": false,
+  "DOI_created": false,
+  "full_clean_environment_GPU_refit_tested": false,
+  "LaTeX_compiled": false
+}

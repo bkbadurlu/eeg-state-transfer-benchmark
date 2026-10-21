@@ -1,0 +1,11 @@
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.7.1
+torch==2.5.1+cu121
+mne==1.11.0
+pandas==2.3.3
+matplotlib==3.10.9
+fugw==0.1.1
+POT==0.9.7.post1
+PSID==1.2.6
+pyriemann==0.12

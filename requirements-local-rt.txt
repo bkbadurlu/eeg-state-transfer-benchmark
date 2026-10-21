@@ -1,0 +1,4 @@
+# Optional refitting of the recorded within-person EEG RT control.
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.7.1

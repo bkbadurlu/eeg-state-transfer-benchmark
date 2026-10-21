@@ -1,0 +1,437 @@
+{
+  "status": "DRAWN_FROM_IMPLEMENTED_EQUATIONS_AND_CHECKED_EXAMPLE",
+  "date_local": "2026-10-21",
+  "language": "English",
+  "source_main_sha256": "8d59903b1b9609ec69c0796d09762b28567b3f1299a85704d023f851b43e75de",
+  "evidence_audit_sha256": "b4f57f0f80f5053aff6990d9e5d8924baca032b183aba7be6fd926701f4e961b",
+  "cache_sha256": "a2b7c883273c12a519c29e7e4d3c10c0cb23b56f61888644a6df5076010f991c",
+  "drawing_code_sha256": "7ab604384cdfbb00df166d40c21b7a178a22110bba75af7e5c3f0b568492dff3",
+  "panel_a": "Exact generator mesh; known intrinsic geodesic, not an inferred biological surface",
+  "panel_b": "Original learned coordinates/map replayed; fixed first cohort/persons; no illustrative camera transformations",
+  "panel_b_display": {
+    "isotropic_scale": 16.738219524809242,
+    "common_center": [
+      0.402142259034326,
+      0.3781721967220404
+    ],
+    "highlight_probe": 0
+  },
+  "panel_c": "Exact feature-history decoder and additive affine residual calibration; vector-capable",
+  "EEG_trace": "Actual saved Cz bin means; no generated sine",
+  "EEG_vertical_scale_pt_per_uV": 2.4429279277816547,
+  "displayed_EEG_points": [
+    [
+      528.68359375,
+      73.50972819381947
+    ],
+    [
+      541.9453125,
+      72.0
+    ],
+    [
+      555.20703125,
+      86.33617984993826
+    ],
+    [
+      567.521484375,
+      93.43868026730742
+    ],
+    [
+      578.888671875,
+      85.72945465373567
+    ],
+    [
+      590.255859375,
+      81.35492559905158
+    ],
+    [
+      601.623046875,
+      78.40743307739702
+    ],
+    [
+      612.990234375,
+      89.58151468059967
+    ]
+  ],
+  "generative_image_model_used": false,
+  "AI_assisted_drawing_code": true,
+  "new_experimental_condition": false,
+  "new_hypothesis_test": false,
+  "LaTeX_compiled": false,
+  "page_points": [
+    780,
+    448
+  ],
+  "preview_pixels": [
+    3120,
+    1792
+  ],
+  "fonts": [
+    {
+      "name": "AAAAAA+Georgia",
+      "embedded": true
+    },
+    {
+      "name": "AAAAAA+ArialMT",
+      "embedded": true
+    },
+    {
+      "name": "AAAAAA+Georgia-Italic",
+      "embedded": true
+    },
+    {
+      "name": "AAAAAA+Arial-BoldMT",
+      "embedded": true
+    }
+  ],
+  "text_bounds": [
+    {
+      "text": "Geometry, correspondence and prediction",
+      "x": 28,
+      "y": 416,
+      "width": 483.33593750000006,
+      "size": 26,
+      "font": "EditorialSerif"
+    },
+    {
+      "text": "Controlled surface example and open auditory EEG",
+      "x": 29,
+      "y": 391,
+      "width": 331.27685546875,
+      "size": 14.5,
+      "font": "EditorialSans"
+    },
+    {
+      "text": "a",
+      "x": 28,
+      "y": 350,
+      "width": 8.59130859375,
+      "size": 15,
+      "font": "EditorialSerifItalic"
+    },
+    {
+      "text": "Geometry",
+      "x": 48,
+      "y": 350,
+      "width": 84.03222656250001,
+      "size": 18,
+      "font": "EditorialSansBold"
+    },
+    {
+      "text": "b",
+      "x": 286,
+      "y": 350,
+      "width": 8.3056640625,
+      "size": 15,
+      "font": "EditorialSerifItalic"
+    },
+    {
+      "text": "Correspondence",
+      "x": 306,
+      "y": 350,
+      "width": 143.03320312500003,
+      "size": 18,
+      "font": "EditorialSansBold"
+    },
+    {
+      "text": "c",
+      "x": 552,
+      "y": 350,
+      "width": 6.80419921875,
+      "size": 15,
+      "font": "EditorialSerifItalic"
+    },
+    {
+      "text": "Prediction",
+      "x": 572,
+      "y": 350,
+      "width": 88.01367187500001,
+      "size": 18,
+      "font": "EditorialSansBold"
+    },
+    {
+      "text": "Known folded surface",
+      "x": 71.71796875000001,
+      "y": 199,
+      "width": 136.56406249999998,
+      "size": 14.2,
+      "font": "EditorialSans"
+    },
+    {
+      "text": "True intrinsic geodesic",
+      "x": 77.97275390624999,
+      "y": 180,
+      "width": 124.05449218750002,
+      "size": 12.4,
+      "font": "EditorialSans"
+    },
+    {
+      "text": "Source",
+      "x": 310,
+      "y": 332,
+      "width": 37.387792968750006,
+      "size": 11.8,
+      "font": "EditorialSans"
+    },
+    {
+      "text": "Mapped target",
+      "x": 401,
+      "y": 332,
+      "width": 76.09501953125,
+      "size": 11.8,
+      "font": "EditorialSans"
+    },
+    {
+      "text": "Isomap + input-assisted map",
+      "x": 317.8783203125,
+      "y": 199,
+      "width": 174.24335937499998,
+      "size": 13.6,
+      "font": "EditorialSans"
+    },
+    {
+      "text": "First cohort · 128 common probes",
+      "x": 316.4654296875,
+      "y": 180,
+      "width": 177.06914062500002,
+      "size": 11.8,
+      "font": "EditorialSans"
+    },
+    {
+      "text": "H, U",
+      "x": 544.34375,
+      "y": 257,
+      "width": 33.3125,
+      "size": 16,
+      "font": "EditorialSerifItalic"
+    },
+    {
+      "text": "f",
+      "x": 603.3650390625,
+      "y": 273,
+      "width": 8.5439453125,
+      "size": 26,
+      "font": "EditorialSerifItalic"
+    },
+    {
+      "text": "s",
+      "x": 611.908984375,
+      "y": 267.28,
+      "width": 6.7259765625,
+      "size": 15.6,
+      "font": "EditorialSerifItalic"
+    },
+    {
+      "text": "p",
+      "x": 640.03984375,
+      "y": 295,
+      "width": 7.9203125000000005,
+      "size": 13.7,
+      "font": "EditorialSerifItalic"
+    },
+    {
+      "text": "p + ê",
+      "x": 670.880265625,
+      "y": 274.0,
+      "width": 33.49951171875,
+      "size": 15.4,
+      "font": "EditorialSerifItalic"
+    },
+    {
+      "text": "b",
+      "x": 704.37977734375,
+      "y": 270.612,
+      "width": 5.28683203125,
+      "size": 9.548,
+      "font": "EditorialSerifItalic"
+    },
+    {
+      "text": "(p)",
+      "x": 709.666609375,
+      "y": 274.0,
+      "width": 20.453125,
+      "size": 15.4,
+      "font": "EditorialSerifItalic"
+    },
+    {
+      "text": "ŷ",
+      "x": 749.87416015625,
+      "y": 255,
+      "width": 10.072265625000002,
+      "size": 18,
+      "font": "EditorialSerifItalic"
+    },
+    {
+      "text": "b",
+      "x": 759.94642578125,
+      "y": 251.04,
+      "width": 6.1794140625,
+      "size": 11.16,
+      "font": "EditorialSerifItalic"
+    },
+    {
+      "text": "Source decoder",
+      "x": 567.933642578125,
+      "y": 320,
+      "width": 86.13271484375,
+      "size": 12.2,
+      "font": "EditorialSans"
+    },
+    {
+      "text": "Target reports",
+      "x": 662.004345703125,
+      "y": 216,
+      "width": 75.99130859374999,
+      "size": 12.1,
+      "font": "EditorialSans"
+    },
+    {
+      "text": "b = 0, 12, 48",
+      "x": 666.19326171875,
+      "y": 198,
+      "width": 67.6134765625,
+      "size": 12.1,
+      "font": "EditorialSans"
+    },
+    {
+      "text": "Residual output calibration",
+      "x": 572.21796875,
+      "y": 180,
+      "width": 155.5640625,
+      "size": 13.2,
+      "font": "EditorialSans"
+    },
+    {
+      "text": "Isometric surface",
+      "x": 28,
+      "y": 140,
+      "width": 136.648681640625,
+      "size": 16.5,
+      "font": "EditorialSansBold"
+    },
+    {
+      "text": "20 cohorts · no target labels",
+      "x": 28,
+      "y": 118,
+      "width": 154.949951171875,
+      "size": 12.5,
+      "font": "EditorialSans"
+    },
+    {
+      "text": "Isomap",
+      "x": 298,
+      "y": 138,
+      "width": 40.9912109375,
+      "size": 12.5,
+      "font": "EditorialSans"
+    },
+    {
+      "text": "PCA",
+      "x": 389,
+      "y": 138,
+      "width": 25.701904296875,
+      "size": 12.5,
+      "font": "EditorialSans"
+    },
+    {
+      "text": "Between-repeat R²",
+      "x": 28,
+      "y": 83,
+      "width": 117.5029296875,
+      "size": 14,
+      "font": "EditorialSans"
+    },
+    {
+      "text": "Absolute-output R²",
+      "x": 28,
+      "y": 41,
+      "width": 116.73046875,
+      "size": 14,
+      "font": "EditorialSans"
+    },
+    {
+      "text": "0.392",
+      "x": 405.9468904606047,
+      "y": 97,
+      "width": 37.53662109375,
+      "size": 15,
+      "font": "EditorialSans"
+    },
+    {
+      "text": "0.168",
+      "x": 268.62796742797576,
+      "y": 97,
+      "width": 37.53662109375,
+      "size": 15,
+      "font": "EditorialSans"
+    },
+    {
+      "text": "0.222",
+      "x": 301.8983561197917,
+      "y": 55,
+      "width": 37.53662109375,
+      "size": 15,
+      "font": "EditorialSans"
+    },
+    {
+      "text": "0.382",
+      "x": 399.67613389756946,
+      "y": 55,
+      "width": 37.53662109375,
+      "size": 15,
+      "font": "EditorialSans"
+    },
+    {
+      "text": "Open auditory EEG",
+      "x": 521,
+      "y": 140,
+      "width": 151.271484375,
+      "size": 16.5,
+      "font": "EditorialSansBold"
+    },
+    {
+      "text": "3 sources → 10 targets",
+      "x": 521,
+      "y": 118,
+      "width": 129.229736328125,
+      "size": 12.5,
+      "font": "EditorialSans"
+    },
+    {
+      "text": "Cz · 0–200 ms",
+      "x": 532.28583984375,
+      "y": 62,
+      "width": 75.42832031249999,
+      "size": 11.6,
+      "font": "EditorialSans"
+    },
+    {
+      "text": "RT",
+      "x": 717,
+      "y": 79,
+      "width": 20.39501953125,
+      "size": 15.3,
+      "font": "EditorialSans"
+    },
+    {
+      "text": "No reliable transfer gain",
+      "x": 521,
+      "y": 29,
+      "width": 169.4267578125,
+      "size": 14.8,
+      "font": "EditorialSansBold"
+    }
+  ],
+  "files": {
+    "graphical_abstract.pdf": "630cf182ce76ebf64f4f2276bab8258a91362801055e8f814b125c542bc93747",
+    "graphical_abstract.svg": "db3fcf724ae2fea38133ff7c69ceacdfcd4d9992a24c0a26264c72e332bf51fd",
+    "graphical_abstract.png": "65782ccac1874307d73ddfd70f6f0312402485d20b9346393276b1aa22ef819a",
+    "graphical_abstract_caption.txt": "ef79649f183ff276e01f33e5bf5dd55e626129773893a40765d72a5238f2bc2e",
+    "TECHNICAL_FIGURE_PROVENANCE.txt": "91686d0f17d073b0a2459365eb6b6c298be2b4ad83140f266d8df8cbd0bcc0a4"
+  },
+  "visual_QA": {
+    "final_PDF_render_inspected": true,
+    "at_13cm_150dpi_inspected": true,
+    "clipping_overlap_missing_glyphs_observed": false
+  }
+}

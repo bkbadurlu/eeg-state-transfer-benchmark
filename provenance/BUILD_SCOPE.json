@@ -1,0 +1,15 @@
+{
+  "date_local": "2026-10-21",
+  "repository_name": "eeg-state-transfer-benchmark",
+  "description": "A reproducible benchmark separating geometry, cross-subject correspondence, and behavioral prediction in controlled simulations and open EEG.",
+  "main_manuscript_sha256": "8d59903b1b9609ec69c0796d09762b28567b3f1299a85704d023f851b43e75de",
+  "source_files": 46,
+  "original_results_changed": false,
+  "new_scientific_conditions": false,
+  "new_hypothesis_tests": false,
+  "network_used": false,
+  "LaTeX_compiled": false,
+  "uploaded": false,
+  "assigned_study_DOI": null,
+  "original_code_license": null
+}

@@ -1,0 +1,358 @@
+{
+  "status": "COMPLETE_EXPLICIT_POSTHOC",
+  "cells": 152,
+  "summary": [
+    {
+      "cell": "CIRCLE_ISO",
+      "method": "GEO",
+      "measure": "global128point_rho",
+      "n": 20,
+      "mean": 0.9862764604286778,
+      "ci95": [
+        0.9853134861059338,
+        0.9871727619288723
+      ]
+    },
+    {
+      "cell": "CIRCLE_ISO",
+      "method": "INPUT_MAP",
+      "measure": "same_state_centered_coordinate_correlation",
+      "n": 20,
+      "mean": 0.9915739875153428,
+      "ci95": [
+        0.9911313833085756,
+        0.9919887255962309
+      ]
+    },
+    {
+      "cell": "CIRCLE_ISO",
+      "method": "INPUT_MAP",
+      "measure": "same_state_top5_of128",
+      "n": 20,
+      "mean": 0.649609375,
+      "ci95": [
+        0.6345703125,
+        0.6642578125
+      ]
+    },
+    {
+      "cell": "CIRCLE_ISO",
+      "method": "PCA",
+      "measure": "global128point_rho",
+      "n": 20,
+      "mean": 0.9766607022920104,
+      "ci95": [
+        0.9759641925343591,
+        0.9773287044191941
+      ]
+    },
+    {
+      "cell": "CIRCLE_ISO",
+      "method": "PCA2",
+      "measure": "global128point_rho",
+      "n": 20,
+      "mean": 0.9766607022920104,
+      "ci95": [
+        0.9759748445845485,
+        0.9773262243551203
+      ]
+    },
+    {
+      "cell": "CIRCLE_ISO",
+      "method": "PCA_FULL",
+      "measure": "global128point_rho",
+      "n": 20,
+      "mean": 0.9753521084283696,
+      "ci95": [
+        0.974619156273878,
+        0.9760269109684934
+      ]
+    },
+    {
+      "cell": "CIRCLE_ISO",
+      "method": "TRUEPAIR_MATCHED",
+      "measure": "same_state_centered_coordinate_correlation",
+      "n": 20,
+      "mean": 0.9919737735926306,
+      "ci95": [
+        0.9915901523101951,
+        0.9923340753211652
+      ]
+    },
+    {
+      "cell": "CIRCLE_ISO",
+      "method": "TRUEPAIR_MATCHED",
+      "measure": "same_state_top5_of128",
+      "n": 20,
+      "mean": 0.6693359375,
+      "ci95": [
+        0.6595703125,
+        0.680078125
+      ]
+    },
+    {
+      "cell": "MASS_LEAD",
+      "method": "GEO",
+      "measure": "global128point_rho",
+      "n": 20,
+      "mean": 0.9432904486407537,
+      "ci95": [
+        0.9408397785658396,
+        0.9456176632188756
+      ]
+    },
+    {
+      "cell": "MASS_LEAD",
+      "method": "INPUT_MAP",
+      "measure": "same_state_centered_coordinate_correlation",
+      "n": 20,
+      "mean": 0.9645592839129238,
+      "ci95": [
+        0.9624842152463197,
+        0.9665149808262706
+      ]
+    },
+    {
+      "cell": "MASS_LEAD",
+      "method": "INPUT_MAP",
+      "measure": "same_state_top5_of128",
+      "n": 20,
+      "mean": 0.576171875,
+      "ci95": [
+        0.558984375,
+        0.593359375
+      ]
+    },
+    {
+      "cell": "MASS_LEAD",
+      "method": "PCA",
+      "measure": "global128point_rho",
+      "n": 20,
+      "mean": 0.9456974779508995,
+      "ci95": [
+        0.9434452110005063,
+        0.9478717663797203
+      ]
+    },
+    {
+      "cell": "MASS_LEAD",
+      "method": "PCA2",
+      "measure": "global128point_rho",
+      "n": 20,
+      "mean": 0.9453981119825581,
+      "ci95": [
+        0.9430778441353185,
+        0.9476157500094298
+      ]
+    },
+    {
+      "cell": "MASS_LEAD",
+      "method": "PCA_FULL",
+      "measure": "global128point_rho",
+      "n": 20,
+      "mean": 0.9360999652423392,
+      "ci95": [
+        0.9333543015904071,
+        0.9387571822201697
+      ]
+    },
+    {
+      "cell": "MASS_LEAD",
+      "method": "TRUEPAIR_MATCHED",
+      "measure": "same_state_centered_coordinate_correlation",
+      "n": 20,
+      "mean": 0.9642376934091385,
+      "ci95": [
+        0.9621650317846939,
+        0.9662349520471795
+      ]
+    },
+    {
+      "cell": "MASS_LEAD",
+      "method": "TRUEPAIR_MATCHED",
+      "measure": "same_state_top5_of128",
+      "n": 20,
+      "mean": 0.583984375,
+      "ci95": [
+        0.566015625,
+        0.6017578125
+      ]
+    },
+    {
+      "cell": "SWISS_ANISO",
+      "method": "GEO",
+      "measure": "global128point_rho",
+      "n": 20,
+      "mean": 0.6490389439212643,
+      "ci95": [
+        0.5696909114896417,
+        0.7217116366303669
+      ]
+    },
+    {
+      "cell": "SWISS_ANISO",
+      "method": "INPUT_MAP",
+      "measure": "same_state_centered_coordinate_correlation",
+      "n": 20,
+      "mean": 0.11173688967392519,
+      "ci95": [
+        -0.046517431276018366,
+        0.27009418973101273
+      ]
+    },
+    {
+      "cell": "SWISS_ANISO",
+      "method": "INPUT_MAP",
+      "measure": "same_state_top5_of128",
+      "n": 20,
+      "mean": 0.0408203125,
+      "ci95": [
+        0.0341796875,
+        0.0486328125
+      ]
+    },
+    {
+      "cell": "SWISS_ANISO",
+      "method": "PCA",
+      "measure": "global128point_rho",
+      "n": 20,
+      "mean": 0.596520104732009,
+      "ci95": [
+        0.5178184332937816,
+        0.6770307904941888
+      ]
+    },
+    {
+      "cell": "SWISS_ANISO",
+      "method": "PCA2",
+      "measure": "global128point_rho",
+      "n": 20,
+      "mean": 0.5466372322695731,
+      "ci95": [
+        0.474180546795093,
+        0.6170089664531594
+      ]
+    },
+    {
+      "cell": "SWISS_ANISO",
+      "method": "PCA_FULL",
+      "measure": "global128point_rho",
+      "n": 20,
+      "mean": 0.595617543890181,
+      "ci95": [
+        0.5168569820938484,
+        0.6751613573927356
+      ]
+    },
+    {
+      "cell": "SWISS_ANISO",
+      "method": "TRUEPAIR_MATCHED",
+      "measure": "same_state_centered_coordinate_correlation",
+      "n": 20,
+      "mean": 0.5464963522526309,
+      "ci95": [
+        0.4031865012079935,
+        0.6683152500980972
+      ]
+    },
+    {
+      "cell": "SWISS_ANISO",
+      "method": "TRUEPAIR_MATCHED",
+      "measure": "same_state_top5_of128",
+      "n": 20,
+      "mean": 0.129296875,
+      "ci95": [
+        0.1064453125,
+        0.154296875
+      ]
+    },
+    {
+      "cell": "SWISS_ISO",
+      "method": "GEO",
+      "measure": "global128point_rho",
+      "n": 20,
+      "mean": 0.9204654291255074,
+      "ci95": [
+        0.8929401600613963,
+        0.9442227783367375
+      ]
+    },
+    {
+      "cell": "SWISS_ISO",
+      "method": "INPUT_MAP",
+      "measure": "same_state_centered_coordinate_correlation",
+      "n": 20,
+      "mean": 0.6183527310799045,
+      "ci95": [
+        0.4984134411885525,
+        0.7179028985935936
+      ]
+    },
+    {
+      "cell": "SWISS_ISO",
+      "method": "INPUT_MAP",
+      "measure": "same_state_top5_of128",
+      "n": 20,
+      "mean": 0.0615234375,
+      "ci95": [
+        0.0525390625,
+        0.0712890625
+      ]
+    },
+    {
+      "cell": "SWISS_ISO",
+      "method": "PCA",
+      "measure": "global128point_rho",
+      "n": 20,
+      "mean": 0.6602605966951134,
+      "ci95": [
+        0.5711929655477705,
+        0.7488924516499378
+      ]
+    },
+    {
+      "cell": "SWISS_ISO",
+      "method": "PCA2",
+      "measure": "global128point_rho",
+      "n": 20,
+      "mean": 0.5722309271186594,
+      "ci95": [
+        0.4924431942733445,
+        0.6522311305059519
+      ]
+    },
+    {
+      "cell": "SWISS_ISO",
+      "method": "PCA_FULL",
+      "measure": "global128point_rho",
+      "n": 20,
+      "mean": 0.6590053985947795,
+      "ci95": [
+        0.5707605068896081,
+        0.7488488750369073
+      ]
+    },
+    {
+      "cell": "SWISS_ISO",
+      "method": "TRUEPAIR_MATCHED",
+      "measure": "same_state_centered_coordinate_correlation",
+      "n": 20,
+      "mean": 0.5632214411416346,
+      "ci95": [
+        0.3482935796170833,
+        0.7366755660150683
+      ]
+    },
+    {
+      "cell": "SWISS_ISO",
+      "method": "TRUEPAIR_MATCHED",
+      "measure": "same_state_top5_of128",
+      "n": 20,
+      "mean": 0.147265625,
+      "ci95": [
+        0.113671875,
+        0.1837890625
+      ]
+    }
+  ]
+}

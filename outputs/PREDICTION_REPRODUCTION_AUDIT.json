@@ -1,0 +1,20 @@
+{
+  "status": "PASS_RECORDED_PREDICTION_SCORES",
+  "checks_by_scope": {
+    "E48_full_revision_v1": 14168,
+    "E48_full_revision_v1:wrong_EEG": 14168,
+    "E50_corrected_dynamics_v1": 2736,
+    "E50_corrected_dynamics_v1:wrong_EEG": 2736,
+    "E51_global_geometry_v1": 1824,
+    "E51_global_geometry_v1:wrong_EEG": 1824,
+    "E58:private": 3360,
+    "E58:absolute": 3360,
+    "E59": 104,
+    "E49:valid_mean": 48
+  },
+  "maximum_absolute_error": 1.6416219956738587e-06,
+  "valid_EEG_cells": 480,
+  "note": "Arithmetic checks include historical prototype rows for integrity; use the corrected audited summaries for inference.",
+  "new_fits": false,
+  "new_tests": false
+}

@@ -1,0 +1,9 @@
+{
+  "cebra": "0.6.1",
+  "source": "Recorded isolated worker environment; no installed packages bundled.",
+  "versions": {
+    "cebra": "0.6.1",
+    "literate-dataclasses": "0.0.6",
+    "numpy": "1.26.4"
+  }
+}

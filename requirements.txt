@@ -1,0 +1,2 @@
+# Minimal recorded-output reproduction; no model fitting.
+numpy==2.2.6

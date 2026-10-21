@@ -1,0 +1,132 @@
+{
+  "status": "EXISTING_EXAMPLE_REPLAY_MATCHES_ARCHIVED_DIAGNOSTICS",
+  "date_local": "2026-10-21",
+  "selection_rule": "First original cohort 0, first source 6000, first target 6003; probe 0 highlighted; geodesic endpoints 0 and32. Not selected by performance.",
+  "cohort": 0,
+  "world_seed": 1800,
+  "source_subject": 6000,
+  "target_subject": 6003,
+  "probe_programs": [
+    6000,
+    6001,
+    6002,
+    6003
+  ],
+  "probe_times": [
+    39,
+    42,
+    46,
+    49,
+    53,
+    56,
+    60,
+    64,
+    67,
+    71,
+    74,
+    78,
+    81,
+    85,
+    89,
+    92,
+    96,
+    99,
+    103,
+    107,
+    110,
+    114,
+    117,
+    121,
+    124,
+    128,
+    132,
+    135,
+    139,
+    142,
+    146,
+    150
+  ],
+  "probe_count": 128,
+  "rank": 3,
+  "alignment": "Original input-assisted affine response-signature map; no true state or report labels in its fit",
+  "replay": {
+    "rho": 0.9845679479360081,
+    "coordinate_NRMSE": 0.8934148712967263,
+    "top5": 0.0625
+  },
+  "archived_reference": {
+    "rho": 0.9845679479360081,
+    "coordinate_NRMSE": 0.8934148712967266,
+    "top5": 0.0625
+  },
+  "true_surface": {
+    "formula": "(theta*cos(theta)/10, h, theta*sin(theta)/10)",
+    "theta_range_pi": [
+      1.5,
+      4.5
+    ],
+    "height_range": [
+      -1,
+      1
+    ],
+    "geodesic_computation": "Straight line in (arc(theta),h); invert arc numerically",
+    "intrinsic_straight_line_max_error": 3.552713678800501e-14,
+    "not_an_estimated_Isomap_path": true
+  },
+  "EEG": {
+    "source_npz": "C:\\Users\\Kutay\\Desktop\\Gama\\eeg_replication_tools\\E49_open_EEG_v1\\sub-004_run-3_features.npz",
+    "subject": 4,
+    "recording": 3,
+    "row_index": 23,
+    "onset_seconds": 26.578125,
+    "RT_seconds": 0.648,
+    "channel": "Cz",
+    "sampling_frequency": 256.0,
+    "time_ms": [
+      11.71875,
+      39.0625,
+      66.40625,
+      91.796875,
+      115.234375,
+      138.671875,
+      162.109375,
+      185.546875
+    ],
+    "bin_means_uV": [
+      -4.294138884279903,
+      -4.912138366233677,
+      0.9563032226086493,
+      3.863675288971128,
+      0.707943379773034,
+      -1.0827476205367728,
+      -2.289288545520627,
+      2.2847643670225115
+    ],
+    "representation": "Eight actual retained 0–200ms channel bin means; straight segments join points; not raw continuous EEG or a synthetic sine",
+    "selection": "First quality/eligibility-passing target-tone trial in recording order"
+  },
+  "repeat_means": {
+    "GEO": 0.39226123801223955,
+    "PCA": 0.1675575457770285
+  },
+  "absolute_means": {
+    "GEO": 0.222,
+    "PCA": 0.382
+  },
+  "source_hashes": {
+    "C:\\Users\\Kutay\\Desktop\\Gama\\eeg_replication_tools\\e48_revision_core.py": "57705178f8d5460eb6723927ad500f5ebd00ceec30674a09f981038186a67049",
+    "C:\\Users\\Kutay\\Desktop\\Gama\\eeg_replication_tools\\E54_review_validation_v1\\cohort_00\\SWISS_ISO\\result.json": "8c5c35a267a89a8e7071d2d68047a703c1e49752060a7123bbaf4941f514e699",
+    "C:\\Users\\Kutay\\Desktop\\Gama\\eeg_replication_tools\\E48_PROTOCOL_20261019.json": "6849cdc035750073bb917cecd5c5e70f30ec845e3680a5915099fcf1449ad28e",
+    "C:\\Users\\Kutay\\Desktop\\Gama\\EEG_MAKALE\\latex_makale\\main.tex": "8d59903b1b9609ec69c0796d09762b28567b3f1299a85704d023f851b43e75de",
+    "C:\\Users\\Kutay\\Desktop\\Gama\\eeg_replication_tools\\E49_open_EEG_v1\\sub-004_run-3_features.npz": "c8bdbe14f358f245e02dadfd79d5275a015a7a015d49edd5b81a03ef2692420a",
+    "C:\\Users\\Kutay\\Desktop\\Gama\\eeg_replication_tools\\E49_open_EEG_v1\\sub-004_run-3_features.json": "e269da983d84384cf5b1e5ad0f1bb499ac26850bd267b747c7578b410166e3f3",
+    "C:\\Users\\Kutay\\Desktop\\Gama\\EEG_MAKALE\\jnm_tam_revizyon_20261019\\E48_E50_TAM_SONUC_OZETI.json": "2dde6bbccc7a44503d84de20f241dfa4ab7a1b4cb38a7095e0f1c51e56478230"
+  },
+  "figure_cache_sha256": "a2b7c883273c12a519c29e7e4d3c10c0cb23b56f61888644a6df5076010f991c",
+  "new_hypothesis_test": false,
+  "new_experimental_condition": false,
+  "deep_training": false,
+  "original_files_modified": false,
+  "LaTeX_compiled": false,
+  "seconds": 11.797000000020489
+}

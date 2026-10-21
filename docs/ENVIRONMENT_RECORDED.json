@@ -1,0 +1,20 @@
+{
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows",
+  "versions": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.1",
+    "torch": "2.5.1+cu121",
+    "mne": "1.11.0",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.9",
+    "fugw": "0.1.1",
+    "POT": "0.9.7.post1",
+    "PSID": "1.2.6",
+    "pyriemann": "0.12"
+  },
+  "table_reproduction_dependencies": "Python standard library + NumPy only",
+  "refitting_dependencies": "Existing full scientific runtime; optional imports in legacy read-only code require the recorded packages.",
+  "no_environment_installed_or_copied": true
+}

@@ -1,0 +1,654 @@
+{
+  "status": "FROZEN_BEFORE_CORRECTED_IPSID_OR_DENSE_ISID_SCORES",
+  "created_UTC": "2026-10-19T16:43:04.044451+00:00",
+  "code_sha256": "72ef75c13859f11a469dbf9fac04483d4428db2d6441d81e2e225048c7dec31e",
+  "E48_code_sha256": "57705178f8d5460eb6723927ad500f5ebd00ceec30674a09f981038186a67049",
+  "E48_protocol_sha256": "6849cdc035750073bb917cecd5c5e70f30ec845e3680a5915099fcf1449ad28e",
+  "reason": "Technical time-grid mismatch: E48 IPSID trained on step8 samples but query filtering used step4. No E48 result/source/protocol overwritten.",
+  "supersedes": "E48 IPSID prototype only, all main and sweep cells",
+  "source_sampling": "same6trials x8report times39,47,...95: 48reports/source",
+  "corrected_IPSID": {
+    "nx": 4,
+    "n1": 2,
+    "i": 2,
+    "source_step": 8,
+    "query_step": 8,
+    "query_lags": [
+      24,
+      16,
+      8,
+      0
+    ],
+    "reader_alpha": 100,
+    "history_budget": 32
+  },
+  "dense_ISID": {
+    "official_function": "PSID.IPSID, n1=0,Z=None (documented ISID special case)",
+    "nx": 4,
+    "i": 4,
+    "identification": "all allowed source neural/input trials at original100Hz; no behavioral labels in state fit",
+    "query_lags": "31..0 every sample",
+    "reader": "same48source labels, fold-normalized128tanh/ridge with source-personCV"
+  },
+  "common": "sameE48 worlds, people, inputs, observations, PCA preprocessing/input-affine map, source labels/noise, target calibration and independent test repeats",
+  "checks": "recomputed common PCA R2/SSE/energy compared with E48 when available; exact data pairing required",
+  "inference": "predefined E48 five-method family uses corrected IPSID metric; original prototype is marked invalid. DenseISID comparison is additional descriptive sensitivity, not a new independent cohort replication.",
+  "scope": "Technical amendment before corrected scores; same E48 cohorts, not externally preregistered or an independent confirmation",
+  "tasks": [
+    {
+      "cohort": 0,
+      "cell": "SWISS_ISO"
+    },
+    {
+      "cohort": 0,
+      "cell": "SWISS_ANISO"
+    },
+    {
+      "cohort": 0,
+      "cell": "CIRCLE_ISO"
+    },
+    {
+      "cohort": 0,
+      "cell": "MASS_LEAD"
+    },
+    {
+      "cohort": 1,
+      "cell": "SWISS_ISO"
+    },
+    {
+      "cohort": 1,
+      "cell": "SWISS_ANISO"
+    },
+    {
+      "cohort": 1,
+      "cell": "CIRCLE_ISO"
+    },
+    {
+      "cohort": 1,
+      "cell": "MASS_LEAD"
+    },
+    {
+      "cohort": 2,
+      "cell": "SWISS_ISO"
+    },
+    {
+      "cohort": 2,
+      "cell": "SWISS_ANISO"
+    },
+    {
+      "cohort": 2,
+      "cell": "CIRCLE_ISO"
+    },
+    {
+      "cohort": 2,
+      "cell": "MASS_LEAD"
+    },
+    {
+      "cohort": 3,
+      "cell": "SWISS_ISO"
+    },
+    {
+      "cohort": 3,
+      "cell": "SWISS_ANISO"
+    },
+    {
+      "cohort": 3,
+      "cell": "CIRCLE_ISO"
+    },
+    {
+      "cohort": 3,
+      "cell": "MASS_LEAD"
+    },
+    {
+      "cohort": 4,
+      "cell": "SWISS_ISO"
+    },
+    {
+      "cohort": 4,
+      "cell": "SWISS_ANISO"
+    },
+    {
+      "cohort": 4,
+      "cell": "CIRCLE_ISO"
+    },
+    {
+      "cohort": 4,
+      "cell": "MASS_LEAD"
+    },
+    {
+      "cohort": 5,
+      "cell": "SWISS_ISO"
+    },
+    {
+      "cohort": 5,
+      "cell": "SWISS_ANISO"
+    },
+    {
+      "cohort": 5,
+      "cell": "CIRCLE_ISO"
+    },
+    {
+      "cohort": 5,
+      "cell": "MASS_LEAD"
+    },
+    {
+      "cohort": 6,
+      "cell": "SWISS_ISO"
+    },
+    {
+      "cohort": 6,
+      "cell": "SWISS_ANISO"
+    },
+    {
+      "cohort": 6,
+      "cell": "CIRCLE_ISO"
+    },
+    {
+      "cohort": 6,
+      "cell": "MASS_LEAD"
+    },
+    {
+      "cohort": 7,
+      "cell": "SWISS_ISO"
+    },
+    {
+      "cohort": 7,
+      "cell": "SWISS_ANISO"
+    },
+    {
+      "cohort": 7,
+      "cell": "CIRCLE_ISO"
+    },
+    {
+      "cohort": 7,
+      "cell": "MASS_LEAD"
+    },
+    {
+      "cohort": 8,
+      "cell": "SWISS_ISO"
+    },
+    {
+      "cohort": 8,
+      "cell": "SWISS_ANISO"
+    },
+    {
+      "cohort": 8,
+      "cell": "CIRCLE_ISO"
+    },
+    {
+      "cohort": 8,
+      "cell": "MASS_LEAD"
+    },
+    {
+      "cohort": 9,
+      "cell": "SWISS_ISO"
+    },
+    {
+      "cohort": 9,
+      "cell": "SWISS_ANISO"
+    },
+    {
+      "cohort": 9,
+      "cell": "CIRCLE_ISO"
+    },
+    {
+      "cohort": 9,
+      "cell": "MASS_LEAD"
+    },
+    {
+      "cohort": 10,
+      "cell": "SWISS_ISO"
+    },
+    {
+      "cohort": 10,
+      "cell": "SWISS_ANISO"
+    },
+    {
+      "cohort": 10,
+      "cell": "CIRCLE_ISO"
+    },
+    {
+      "cohort": 10,
+      "cell": "MASS_LEAD"
+    },
+    {
+      "cohort": 11,
+      "cell": "SWISS_ISO"
+    },
+    {
+      "cohort": 11,
+      "cell": "SWISS_ANISO"
+    },
+    {
+      "cohort": 11,
+      "cell": "CIRCLE_ISO"
+    },
+    {
+      "cohort": 11,
+      "cell": "MASS_LEAD"
+    },
+    {
+      "cohort": 12,
+      "cell": "SWISS_ISO"
+    },
+    {
+      "cohort": 12,
+      "cell": "SWISS_ANISO"
+    },
+    {
+      "cohort": 12,
+      "cell": "CIRCLE_ISO"
+    },
+    {
+      "cohort": 12,
+      "cell": "MASS_LEAD"
+    },
+    {
+      "cohort": 13,
+      "cell": "SWISS_ISO"
+    },
+    {
+      "cohort": 13,
+      "cell": "SWISS_ANISO"
+    },
+    {
+      "cohort": 13,
+      "cell": "CIRCLE_ISO"
+    },
+    {
+      "cohort": 13,
+      "cell": "MASS_LEAD"
+    },
+    {
+      "cohort": 14,
+      "cell": "SWISS_ISO"
+    },
+    {
+      "cohort": 14,
+      "cell": "SWISS_ANISO"
+    },
+    {
+      "cohort": 14,
+      "cell": "CIRCLE_ISO"
+    },
+    {
+      "cohort": 14,
+      "cell": "MASS_LEAD"
+    },
+    {
+      "cohort": 15,
+      "cell": "SWISS_ISO"
+    },
+    {
+      "cohort": 15,
+      "cell": "SWISS_ANISO"
+    },
+    {
+      "cohort": 15,
+      "cell": "CIRCLE_ISO"
+    },
+    {
+      "cohort": 15,
+      "cell": "MASS_LEAD"
+    },
+    {
+      "cohort": 16,
+      "cell": "SWISS_ISO"
+    },
+    {
+      "cohort": 16,
+      "cell": "SWISS_ANISO"
+    },
+    {
+      "cohort": 16,
+      "cell": "CIRCLE_ISO"
+    },
+    {
+      "cohort": 16,
+      "cell": "MASS_LEAD"
+    },
+    {
+      "cohort": 17,
+      "cell": "SWISS_ISO"
+    },
+    {
+      "cohort": 17,
+      "cell": "SWISS_ANISO"
+    },
+    {
+      "cohort": 17,
+      "cell": "CIRCLE_ISO"
+    },
+    {
+      "cohort": 17,
+      "cell": "MASS_LEAD"
+    },
+    {
+      "cohort": 18,
+      "cell": "SWISS_ISO"
+    },
+    {
+      "cohort": 18,
+      "cell": "SWISS_ANISO"
+    },
+    {
+      "cohort": 18,
+      "cell": "CIRCLE_ISO"
+    },
+    {
+      "cohort": 18,
+      "cell": "MASS_LEAD"
+    },
+    {
+      "cohort": 19,
+      "cell": "SWISS_ISO"
+    },
+    {
+      "cohort": 19,
+      "cell": "SWISS_ANISO"
+    },
+    {
+      "cohort": 19,
+      "cell": "CIRCLE_ISO"
+    },
+    {
+      "cohort": 19,
+      "cell": "MASS_LEAD"
+    },
+    {
+      "cohort": 0,
+      "cell": "SWISS_ANISO_NOISE_LOW"
+    },
+    {
+      "cohort": 0,
+      "cell": "SWISS_ANISO_NOISE_HIGH"
+    },
+    {
+      "cohort": 0,
+      "cell": "SWISS_ANISO_CHANNELS_LOW"
+    },
+    {
+      "cohort": 0,
+      "cell": "SWISS_ANISO_CHANNELS_HIGH"
+    },
+    {
+      "cohort": 0,
+      "cell": "SWISS_ANISO_TRIALS_LOW"
+    },
+    {
+      "cohort": 0,
+      "cell": "SWISS_ANISO_TRIALS_HIGH"
+    },
+    {
+      "cohort": 0,
+      "cell": "SWISS_ANISO_INPUT_LOW"
+    },
+    {
+      "cohort": 0,
+      "cell": "SWISS_ANISO_INPUT_HIGH"
+    },
+    {
+      "cohort": 0,
+      "cell": "SWISS_NONLINEAR"
+    },
+    {
+      "cohort": 1,
+      "cell": "SWISS_ANISO_NOISE_LOW"
+    },
+    {
+      "cohort": 1,
+      "cell": "SWISS_ANISO_NOISE_HIGH"
+    },
+    {
+      "cohort": 1,
+      "cell": "SWISS_ANISO_CHANNELS_LOW"
+    },
+    {
+      "cohort": 1,
+      "cell": "SWISS_ANISO_CHANNELS_HIGH"
+    },
+    {
+      "cohort": 1,
+      "cell": "SWISS_ANISO_TRIALS_LOW"
+    },
+    {
+      "cohort": 1,
+      "cell": "SWISS_ANISO_TRIALS_HIGH"
+    },
+    {
+      "cohort": 1,
+      "cell": "SWISS_ANISO_INPUT_LOW"
+    },
+    {
+      "cohort": 1,
+      "cell": "SWISS_ANISO_INPUT_HIGH"
+    },
+    {
+      "cohort": 1,
+      "cell": "SWISS_NONLINEAR"
+    },
+    {
+      "cohort": 2,
+      "cell": "SWISS_ANISO_NOISE_LOW"
+    },
+    {
+      "cohort": 2,
+      "cell": "SWISS_ANISO_NOISE_HIGH"
+    },
+    {
+      "cohort": 2,
+      "cell": "SWISS_ANISO_CHANNELS_LOW"
+    },
+    {
+      "cohort": 2,
+      "cell": "SWISS_ANISO_CHANNELS_HIGH"
+    },
+    {
+      "cohort": 2,
+      "cell": "SWISS_ANISO_TRIALS_LOW"
+    },
+    {
+      "cohort": 2,
+      "cell": "SWISS_ANISO_TRIALS_HIGH"
+    },
+    {
+      "cohort": 2,
+      "cell": "SWISS_ANISO_INPUT_LOW"
+    },
+    {
+      "cohort": 2,
+      "cell": "SWISS_ANISO_INPUT_HIGH"
+    },
+    {
+      "cohort": 2,
+      "cell": "SWISS_NONLINEAR"
+    },
+    {
+      "cohort": 3,
+      "cell": "SWISS_ANISO_NOISE_LOW"
+    },
+    {
+      "cohort": 3,
+      "cell": "SWISS_ANISO_NOISE_HIGH"
+    },
+    {
+      "cohort": 3,
+      "cell": "SWISS_ANISO_CHANNELS_LOW"
+    },
+    {
+      "cohort": 3,
+      "cell": "SWISS_ANISO_CHANNELS_HIGH"
+    },
+    {
+      "cohort": 3,
+      "cell": "SWISS_ANISO_TRIALS_LOW"
+    },
+    {
+      "cohort": 3,
+      "cell": "SWISS_ANISO_TRIALS_HIGH"
+    },
+    {
+      "cohort": 3,
+      "cell": "SWISS_ANISO_INPUT_LOW"
+    },
+    {
+      "cohort": 3,
+      "cell": "SWISS_ANISO_INPUT_HIGH"
+    },
+    {
+      "cohort": 3,
+      "cell": "SWISS_NONLINEAR"
+    },
+    {
+      "cohort": 4,
+      "cell": "SWISS_ANISO_NOISE_LOW"
+    },
+    {
+      "cohort": 4,
+      "cell": "SWISS_ANISO_NOISE_HIGH"
+    },
+    {
+      "cohort": 4,
+      "cell": "SWISS_ANISO_CHANNELS_LOW"
+    },
+    {
+      "cohort": 4,
+      "cell": "SWISS_ANISO_CHANNELS_HIGH"
+    },
+    {
+      "cohort": 4,
+      "cell": "SWISS_ANISO_TRIALS_LOW"
+    },
+    {
+      "cohort": 4,
+      "cell": "SWISS_ANISO_TRIALS_HIGH"
+    },
+    {
+      "cohort": 4,
+      "cell": "SWISS_ANISO_INPUT_LOW"
+    },
+    {
+      "cohort": 4,
+      "cell": "SWISS_ANISO_INPUT_HIGH"
+    },
+    {
+      "cohort": 4,
+      "cell": "SWISS_NONLINEAR"
+    },
+    {
+      "cohort": 5,
+      "cell": "SWISS_ANISO_NOISE_LOW"
+    },
+    {
+      "cohort": 5,
+      "cell": "SWISS_ANISO_NOISE_HIGH"
+    },
+    {
+      "cohort": 5,
+      "cell": "SWISS_ANISO_CHANNELS_LOW"
+    },
+    {
+      "cohort": 5,
+      "cell": "SWISS_ANISO_CHANNELS_HIGH"
+    },
+    {
+      "cohort": 5,
+      "cell": "SWISS_ANISO_TRIALS_LOW"
+    },
+    {
+      "cohort": 5,
+      "cell": "SWISS_ANISO_TRIALS_HIGH"
+    },
+    {
+      "cohort": 5,
+      "cell": "SWISS_ANISO_INPUT_LOW"
+    },
+    {
+      "cohort": 5,
+      "cell": "SWISS_ANISO_INPUT_HIGH"
+    },
+    {
+      "cohort": 5,
+      "cell": "SWISS_NONLINEAR"
+    },
+    {
+      "cohort": 6,
+      "cell": "SWISS_ANISO_NOISE_LOW"
+    },
+    {
+      "cohort": 6,
+      "cell": "SWISS_ANISO_NOISE_HIGH"
+    },
+    {
+      "cohort": 6,
+      "cell": "SWISS_ANISO_CHANNELS_LOW"
+    },
+    {
+      "cohort": 6,
+      "cell": "SWISS_ANISO_CHANNELS_HIGH"
+    },
+    {
+      "cohort": 6,
+      "cell": "SWISS_ANISO_TRIALS_LOW"
+    },
+    {
+      "cohort": 6,
+      "cell": "SWISS_ANISO_TRIALS_HIGH"
+    },
+    {
+      "cohort": 6,
+      "cell": "SWISS_ANISO_INPUT_LOW"
+    },
+    {
+      "cohort": 6,
+      "cell": "SWISS_ANISO_INPUT_HIGH"
+    },
+    {
+      "cohort": 6,
+      "cell": "SWISS_NONLINEAR"
+    },
+    {
+      "cohort": 7,
+      "cell": "SWISS_ANISO_NOISE_LOW"
+    },
+    {
+      "cohort": 7,
+      "cell": "SWISS_ANISO_NOISE_HIGH"
+    },
+    {
+      "cohort": 7,
+      "cell": "SWISS_ANISO_CHANNELS_LOW"
+    },
+    {
+      "cohort": 7,
+      "cell": "SWISS_ANISO_CHANNELS_HIGH"
+    },
+    {
+      "cohort": 7,
+      "cell": "SWISS_ANISO_TRIALS_LOW"
+    },
+    {
+      "cohort": 7,
+      "cell": "SWISS_ANISO_TRIALS_HIGH"
+    },
+    {
+      "cohort": 7,
+      "cell": "SWISS_ANISO_INPUT_LOW"
+    },
+    {
+      "cohort": 7,
+      "cell": "SWISS_ANISO_INPUT_HIGH"
+    },
+    {
+      "cohort": 7,
+      "cell": "SWISS_NONLINEAR"
+    }
+  ],
+  "target_budgets": [
+    0,
+    12,
+    48
+  ],
+  "disk_floor_bytes": 3221225472,
+  "working_reserve_bytes": 536870912
+}
