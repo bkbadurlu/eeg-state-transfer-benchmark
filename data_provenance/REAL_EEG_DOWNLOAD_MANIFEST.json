@@ -1,0 +1,119 @@
+{
+  "dataset": "ds003061",
+  "runs": {
+    "calibration": 2,
+    "test": 3
+  },
+  "subjects": 13,
+  "objects": [
+    {
+      "key": "ds003061/sub-001/eeg/sub-001_task-P300_run-2_eeg.set",
+      "bytes": 63433336
+    },
+    {
+      "key": "ds003061/sub-001/eeg/sub-001_task-P300_run-3_eeg.set",
+      "bytes": 63349072
+    },
+    {
+      "key": "ds003061/sub-002/eeg/sub-002_task-P300_run-2_eeg.set",
+      "bytes": 62982648
+    },
+    {
+      "key": "ds003061/sub-002/eeg/sub-002_task-P300_run-3_eeg.set",
+      "bytes": 62977424
+    },
+    {
+      "key": "ds003061/sub-003/eeg/sub-003_task-P300_run-2_eeg.set",
+      "bytes": 63099800
+    },
+    {
+      "key": "ds003061/sub-003/eeg/sub-003_task-P300_run-3_eeg.set",
+      "bytes": 63183600
+    },
+    {
+      "key": "ds003061/sub-004/eeg/sub-004_task-P300_run-2_eeg.set",
+      "bytes": 63098336
+    },
+    {
+      "key": "ds003061/sub-004/eeg/sub-004_task-P300_run-3_eeg.set",
+      "bytes": 63100960
+    },
+    {
+      "key": "ds003061/sub-005/eeg/sub-005_task-P300_run-2_eeg.set",
+      "bytes": 63101320
+    },
+    {
+      "key": "ds003061/sub-005/eeg/sub-005_task-P300_run-3_eeg.set",
+      "bytes": 63015096
+    },
+    {
+      "key": "ds003061/sub-006/eeg/sub-006_task-P300_run-2_eeg.set",
+      "bytes": 63332448
+    },
+    {
+      "key": "ds003061/sub-006/eeg/sub-006_task-P300_run-3_eeg.set",
+      "bytes": 63016432
+    },
+    {
+      "key": "ds003061/sub-007/eeg/sub-007_task-P300_run-2_eeg.set",
+      "bytes": 63342152
+    },
+    {
+      "key": "ds003061/sub-007/eeg/sub-007_task-P300_run-3_eeg.set",
+      "bytes": 63595520
+    },
+    {
+      "key": "ds003061/sub-008/eeg/sub-008_task-P300_run-2_eeg.set",
+      "bytes": 63408792
+    },
+    {
+      "key": "ds003061/sub-008/eeg/sub-008_task-P300_run-3_eeg.set",
+      "bytes": 63307456
+    },
+    {
+      "key": "ds003061/sub-009/eeg/sub-009_task-P300_run-2_eeg.set",
+      "bytes": 63763560
+    },
+    {
+      "key": "ds003061/sub-009/eeg/sub-009_task-P300_run-3_eeg.set",
+      "bytes": 63597688
+    },
+    {
+      "key": "ds003061/sub-010/eeg/sub-010_task-P300_run-2_eeg.set",
+      "bytes": 63267200
+    },
+    {
+      "key": "ds003061/sub-010/eeg/sub-010_task-P300_run-3_eeg.set",
+      "bytes": 63347824
+    },
+    {
+      "key": "ds003061/sub-011/eeg/sub-011_task-P300_run-2_eeg.set",
+      "bytes": 63347904
+    },
+    {
+      "key": "ds003061/sub-011/eeg/sub-011_task-P300_run-3_eeg.set",
+      "bytes": 63345296
+    },
+    {
+      "key": "ds003061/sub-012/eeg/sub-012_task-P300_run-2_eeg.set",
+      "bytes": 62802264
+    },
+    {
+      "key": "ds003061/sub-012/eeg/sub-012_task-P300_run-3_eeg.set",
+      "bytes": 64261888
+    },
+    {
+      "key": "ds003061/sub-013/eeg/sub-013_task-P300_run-2_eeg.set",
+      "bytes": 63516352
+    },
+    {
+      "key": "ds003061/sub-013/eeg/sub-013_task-P300_run-3_eeg.set",
+      "bytes": 63432104
+    }
+  ],
+  "total_bytes": 1646026472,
+  "disk_floor_bytes": 3221225472,
+  "working_reserve_bytes": 536870912,
+  "license": "CC0",
+  "purpose": "Same-tone reaction-time transfer; not affect or hidden-geodesic validation"
+}

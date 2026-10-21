@@ -1,1 +1,164 @@
-
+{
+  "dataset": "ds003061",
+  "version": "1.1.2",
+  "license": "CC0",
+  "recordings": [
+    {
+      "dataset_relative_path": "sub-001/eeg/sub-001_task-P300_run-2_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-001/eeg/sub-001_task-P300_run-2_eeg.set",
+      "bytes": 63433336,
+      "sha256": "4a4fd78720ebf0a00b91eba6465162da7d4cfe74c485cef0e838a7a86c963602"
+    },
+    {
+      "dataset_relative_path": "sub-001/eeg/sub-001_task-P300_run-3_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-001/eeg/sub-001_task-P300_run-3_eeg.set",
+      "bytes": 63349072,
+      "sha256": "0ea43ace2bd0010dadb99c3e50161a981b5ff834a69c895727008a2088915ecb"
+    },
+    {
+      "dataset_relative_path": "sub-002/eeg/sub-002_task-P300_run-2_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-002/eeg/sub-002_task-P300_run-2_eeg.set",
+      "bytes": 62982648,
+      "sha256": "14837ab4f65114bd2cc725b42958659089d1ef364f605c53c18914141ba79447"
+    },
+    {
+      "dataset_relative_path": "sub-002/eeg/sub-002_task-P300_run-3_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-002/eeg/sub-002_task-P300_run-3_eeg.set",
+      "bytes": 62977424,
+      "sha256": "3e9c88e465485952f1b452e347a8afa46fc5b86d6f209d1f87a284415fa82500"
+    },
+    {
+      "dataset_relative_path": "sub-003/eeg/sub-003_task-P300_run-2_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-003/eeg/sub-003_task-P300_run-2_eeg.set",
+      "bytes": 63099800,
+      "sha256": "298b29e41b6574286557f5fb4207c8467e18d294a84d1fc4036c450d6857635f"
+    },
+    {
+      "dataset_relative_path": "sub-003/eeg/sub-003_task-P300_run-3_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-003/eeg/sub-003_task-P300_run-3_eeg.set",
+      "bytes": 63183600,
+      "sha256": "53f5fa0584140e55025863437042972245d2842e9c2fe5a0e79b7f50454dc8f6"
+    },
+    {
+      "dataset_relative_path": "sub-004/eeg/sub-004_task-P300_run-2_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-004/eeg/sub-004_task-P300_run-2_eeg.set",
+      "bytes": 63098336,
+      "sha256": "efa4d57da3c29264e51427e855f0258e83b86309bdbe22ae51859b60285e8e60"
+    },
+    {
+      "dataset_relative_path": "sub-004/eeg/sub-004_task-P300_run-3_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-004/eeg/sub-004_task-P300_run-3_eeg.set",
+      "bytes": 63100960,
+      "sha256": "e886ec362c8df260254cc4c34467152bd35463a28be7a7e457a65236762a924d"
+    },
+    {
+      "dataset_relative_path": "sub-005/eeg/sub-005_task-P300_run-2_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-005/eeg/sub-005_task-P300_run-2_eeg.set",
+      "bytes": 63101320,
+      "sha256": "58e1e691a8839e59de7fd95a0ed95e0b81fffe20556dbee8120705a4f4dc5116"
+    },
+    {
+      "dataset_relative_path": "sub-005/eeg/sub-005_task-P300_run-3_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-005/eeg/sub-005_task-P300_run-3_eeg.set",
+      "bytes": 63015096,
+      "sha256": "ad90a0b725a342735488858126e5ad5458b209cc24a30447eadb61bc3e9c35e3"
+    },
+    {
+      "dataset_relative_path": "sub-006/eeg/sub-006_task-P300_run-2_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-006/eeg/sub-006_task-P300_run-2_eeg.set",
+      "bytes": 63332448,
+      "sha256": "952d02eddc61db8a88cac2ade4b80727cd9877a43e763551ba21faaa630ba789"
+    },
+    {
+      "dataset_relative_path": "sub-006/eeg/sub-006_task-P300_run-3_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-006/eeg/sub-006_task-P300_run-3_eeg.set",
+      "bytes": 63016432,
+      "sha256": "036d37961e5a2a0bbc0dfe5d5e189517724dfa3a932a57974701347671adf502"
+    },
+    {
+      "dataset_relative_path": "sub-007/eeg/sub-007_task-P300_run-2_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-007/eeg/sub-007_task-P300_run-2_eeg.set",
+      "bytes": 63342152,
+      "sha256": "eb6c2fc2c5d5adafd48fbb9049da1c66b9de1818f12c9baff7886f60e750e6dd"
+    },
+    {
+      "dataset_relative_path": "sub-007/eeg/sub-007_task-P300_run-3_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-007/eeg/sub-007_task-P300_run-3_eeg.set",
+      "bytes": 63595520,
+      "sha256": "266eaa472fbc9b83bd287cf91e052ca1a454731d6bdb93d18d12bf41bb8159d5"
+    },
+    {
+      "dataset_relative_path": "sub-008/eeg/sub-008_task-P300_run-2_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-008/eeg/sub-008_task-P300_run-2_eeg.set",
+      "bytes": 63408792,
+      "sha256": "89f4560a4048b80a4fe2135eff83a8185a1b0f6ad05ad545307f394b0802d3cb"
+    },
+    {
+      "dataset_relative_path": "sub-008/eeg/sub-008_task-P300_run-3_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-008/eeg/sub-008_task-P300_run-3_eeg.set",
+      "bytes": 63307456,
+      "sha256": "49d79285c32b1ba8c0a6e80744f80e01c469da92db51d9cf1dc48ed2619983dd"
+    },
+    {
+      "dataset_relative_path": "sub-009/eeg/sub-009_task-P300_run-2_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-009/eeg/sub-009_task-P300_run-2_eeg.set",
+      "bytes": 63763560,
+      "sha256": "a96bbd448fea67b040dfcda8b80dd87f60458b178ef7925ff19188bf9745c03b"
+    },
+    {
+      "dataset_relative_path": "sub-009/eeg/sub-009_task-P300_run-3_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-009/eeg/sub-009_task-P300_run-3_eeg.set",
+      "bytes": 63597688,
+      "sha256": "ea06127e8cd6eabf2b957fa4946d29079b21d6694997e50b760cefd562ed8c3d"
+    },
+    {
+      "dataset_relative_path": "sub-010/eeg/sub-010_task-P300_run-2_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-010/eeg/sub-010_task-P300_run-2_eeg.set",
+      "bytes": 63267200,
+      "sha256": "a45bd45f6a6435d36813646c5701facbfc91fdd934d42281eb58aa830b08e316"
+    },
+    {
+      "dataset_relative_path": "sub-010/eeg/sub-010_task-P300_run-3_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-010/eeg/sub-010_task-P300_run-3_eeg.set",
+      "bytes": 63347824,
+      "sha256": "80e834b2676790bef3d484c5ea85b1d8e97aa501d56125e6c2f3655cfb2eca4e"
+    },
+    {
+      "dataset_relative_path": "sub-011/eeg/sub-011_task-P300_run-2_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-011/eeg/sub-011_task-P300_run-2_eeg.set",
+      "bytes": 63347904,
+      "sha256": "8abc885d6ebce6dba3fff9a903d290a3a526fa6e54dd7eaa39feb9d2abbf5c7b"
+    },
+    {
+      "dataset_relative_path": "sub-011/eeg/sub-011_task-P300_run-3_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-011/eeg/sub-011_task-P300_run-3_eeg.set",
+      "bytes": 63345296,
+      "sha256": "a87d340522e5c76915a19e6e75aaaaadc38ed74c2c6629f86b2b897a4ca68ee8"
+    },
+    {
+      "dataset_relative_path": "sub-012/eeg/sub-012_task-P300_run-2_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-012/eeg/sub-012_task-P300_run-2_eeg.set",
+      "bytes": 62802264,
+      "sha256": "bec9f83b1935f17bfefdaef2fc5ee6d61edc33f18c62b3e1c79153e8890d549a"
+    },
+    {
+      "dataset_relative_path": "sub-012/eeg/sub-012_task-P300_run-3_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-012/eeg/sub-012_task-P300_run-3_eeg.set",
+      "bytes": 64261888,
+      "sha256": "5c84dcf1d0ee17c642e5841a994b17c8ea406644602a73e0dbcb43f1697b1bd6"
+    },
+    {
+      "dataset_relative_path": "sub-013/eeg/sub-013_task-P300_run-2_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-013/eeg/sub-013_task-P300_run-2_eeg.set",
+      "bytes": 63516352,
+      "sha256": "3ccb1a9df663194f3019e301ae68e17246dfc1520c23ec509cd7f1bbf156efdd"
+    },
+    {
+      "dataset_relative_path": "sub-013/eeg/sub-013_task-P300_run-3_eeg.set",
+      "url": "https://s3.amazonaws.com/openneuro.org/ds003061/sub-013/eeg/sub-013_task-P300_run-3_eeg.set",
+      "bytes": 63432104,
+      "sha256": "f6395b7a959b4ded2d66d510bf5e4782a90c20d2b4724b66ad3d533c9fcce33d"
+    }
+  ],
+  "raw_recordings_included": false
+}
